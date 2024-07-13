@@ -1,0 +1,453 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+nav {
+    background-color: rgb(63, 63, 65);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0px; 
+    width: 100vw;
+    z-index: 10;
+}
+
+.name {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li {
+    padding: 0px 25px 0px 13px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.main1 {
+    background-image: linear-gradient(to top, rgba(12, 12, 12, 0.9) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 1) 100%), url("assets/hi.jpg");
+    height: 90vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img {
+    height: 90vh;
+    width: 40vw;
+    display: flex;
+    filter: brightness(1.2);
+}
+
+.class1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heading1 {
+    font-weight: 500;
+    font-size: 2rem;
+    color: rgb(216, 213, 213);
+}
+
+.heading2 {
+    font-size: 5rem;
+    color: rgb(244, 239, 239);
+    font-weight: 700;
+}
+
+.heading3 {
+    font-size: 3rem;
+    color: rgb(69, 69, 220);
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: 900;
+}
+
+.para {
+    width: 790px;
+    color: rgb(222, 215, 215);
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+button {
+    background-color: rgb(69, 69, 220);
+    padding: 12px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.line1 {
+    height: 5px;
+    width: 100vw;
+    background-color: rgb(90, 87, 87);
+}
+
+.main2 {
+    background: #000016;
+    height: 80vh;
+}
+
+.head1 {
+    color: rgb(67, 67, 247);
+    font-size: 1.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    padding: 60px;
+    text-decoration: underline;
+}
+
+.para1 {
+    width: 500px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: 400;
+}
+
+.head2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.en {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.column {
+    position: relative;
+    width: 40%;
+}
+
+.bar {
+    margin-bottom: 15px;
+    padding: 10px;
+    color: white;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.line {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background-color: #ccc;
+    border-radius: 3px;
+}
+
+.bar .line:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+.bar .html:before {
+    width: 85%;
+    background: rgb(248, 174, 38);
+}
+
+.bar .css:before {
+    width: 80%;
+    background: rgb(183, 183, 54);
+}
+
+.bar .javascript:before {
+    width: 20%;
+    background: rgb(81, 189, 81);
+}
+
+.bar .java:before {
+    width: 60%;
+    background: blue;
+}
+
+.bar .cpp:before {
+    width: 60%;
+    background: hotpink;
+}
+
+.main3 {
+    background: #000016;
+    height: 80vh;
+}
+
+.pro {
+    height: 360px;
+    background-color: hsl(203, 24%, 66%);
+    width: 300px;
+    margin: 21px;
+    box-shadow: 2px 1px 20px #515c60;
+    border: 1px solid rgb(66, 66, 66);
+    background: linear-gradient(to top, rgba(18, 10, 98, 0.671), #020234);
+}
+
+.work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 90px;
+    width: 251px;
+    padding: 22px;
+}
+
+.h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a1 {
+    font-weight: 700;
+    background: -webkit-linear-gradient(#ffffff, #668eba);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+}
+
+.paragraph {
+    background: -webkit-linear-gradient(#ffffff, #6683ba);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 15px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: 500;
+}
+
+.contact {
+    height: 143px;
+    background: #fff;
+    width: 220px;
+    margin: 20px;
+    padding: 25px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
+    border-radius: 10px;
+}
+
+.main4 {
+    height: 60vh;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+}
+
+.contactme {
+    height: 60px;
+    border-radius: 10px;
+}
+
+.head7 {
+    color: #630a75;
+}
+
+.msg {
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+}
+
+.msg2 {
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    padding-top: 10px;
+    color: rgb(84, 84, 84);
+}
+
+footer {
+    height: 52px;
+    background-color: #000016;
+}
+
+.foot {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+    font-size: small;
+}
+
+.foot2 {
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    font-size: smaller;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 1200px) {
+    .para {
+        width: 600px;
+        font-size: 22px;
+    }
+
+    .heading2 {
+        font-size: 4rem;
+    }
+
+    .heading3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .main1, .img {
+        height: 80vh;
+    }
+
+    .para {
+        width: 500px;
+        font-size: 20px;
+    }
+
+    .content {
+        width: 40vw;
+    }
+
+    .pro {
+        width: 250px;
+        margin: 15px;
+    }
+
+    .work {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heading2 {
+        font-size: 3rem;
+    }
+
+    .heading3 {
+        font-size: 2rem;
+    }
+
+    .para {
+        width: 400px;
+        font-size: 18px;
+    }
+
+    .content {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .heading2 {
+        font-size: 2rem;
+    }
+
+    .heading3 {
+        font-size: 1.5rem;
+    }
+
+    .para {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .content {
+        width: 70vw;
+    }
+
+    .work {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pro {
+        width: 200px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .name {
+        font-size: 1.2rem;
+    }
+
+    ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    li {
+        padding: 10px 0;
+    }
+
+    .heading1, .heading2, .heading3 {
+        text-align: center;
+    }
+
+    .para {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .content {
+        width: 90vw;
+    }
+}
